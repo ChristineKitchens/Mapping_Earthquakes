@@ -204,7 +204,7 @@ d3.json(
 	legend.onAdd = function () {
 		let div = L.DomUtil.create("div", "info legend");
 
-		const magnitudes = [0, 1, 2, 3, 4, 5];
+		const magnitudes = [0, 1, 2, 3, 4, 5, 6];
 		const colors = [
 			"#98ee00",
 			"#d4ee00",
@@ -212,6 +212,7 @@ d3.json(
 			"#ee9c00",
 			"#ea822c",
 			"#ea2c2c",
+			"#6b5b95",
 		];
 
 		// Looping through our intervals to generate a label with a colored square for each interval.
@@ -233,7 +234,9 @@ d3.json(
 	legend.addTo(map);
 
 	// Use d3.json to make a call to get our Tectonic Plate geoJSON data.
-	d3.json("PB2002_boundaries.json").then(function (data) {
+	d3.json(
+		"https://raw.githubusercontent.com/fraxen/tectonicplates/339b0c56563c118307b1f4542703047f5f698fae/GeoJSON/PB2002_boundaries.json"
+	).then(function (data) {
 		// Create a style for the lines.
 		let myStyle = {
 			color: "Fuchsia",
