@@ -1,5 +1,5 @@
 # Mapping Earthquakes
-Interactive map showing showing earthquake impacts using JavaScript and mapbox. Earthquake data is obtained from USGS and 
+Interactive map showing showing earthquake impacts using JavaScript and mapbox. Earthquake data is obtained from (USGS)[https://earthquake.usgs.gov/earthquakes/map/?extent=21.77991,-130.16602&extent=51.91717,-59.85352].
 
 ## How to Use
 ### Setup
@@ -38,8 +38,8 @@ To turn layers on and off, click on the checkboxes.
 
 
 ## Resources
-All Earthquake Data: [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
-Major Earthquake Data: [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson)
-Tectonic Plate: [Hugo Ahlenius, Nordpil and Peter Bird](https://github.com/fraxen/tectonicplates)
+All Earthquake Data: [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) <br>
+Major Earthquake Data: [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson) <br>
+Tectonic Plate: [Hugo Ahlenius, Nordpil and Peter Bird](https://github.com/fraxen/tectonicplates) <br>
 Basemap Layers: [Mapbox.com](https://www.mapbox.com/)
 
