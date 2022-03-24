@@ -1,12 +1,14 @@
 # Mapping Earthquakes
-Interactive map showing showing earthquake impacts using JavaScript and mapbox. Earthquake data is obtained from (USGS)[https://earthquake.usgs.gov/earthquakes/map/?extent=21.77991,-130.16602&extent=51.91717,-59.85352].
+Interactive map showing showing earthquake impacts using JavaScript and mapbox. Earthquake data is obtained from [USGS](https://earthquake.usgs.gov/earthquakes/map/?extent=21.77991,-130.16602&extent=51.91717,-59.85352).
 
 ## How to Use
 ### Setup
 Clone the "Earthquake_Challenge" subdirectory onto a local device. In the terminal, navigate to the "Earthquake_Challenge" directory. Create a new file called "config.js" in the "js" directory (nested inside the "static" directory). Add the following to the config.js file:
 
-<code>// API key
-const API_KEY = "";</code>
+```
+// API key
+const API_KEY = "";
+```
 
 To utilize this code, users will need to create an account with [Mapbox](https://www.mapbox.com/) and aquire an API key. Copy the api key and paste it between the quotation marks in the config.js file. Once this is done, execute the following code in Git Bash:
 
