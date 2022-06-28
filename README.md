@@ -1,5 +1,5 @@
 # Mapping Earthquakes
-Interactive map showing showing earthquake impacts using JavaScript and mapbox. Earthquake data is obtained from [USGS](https://earthquake.usgs.gov/earthquakes/map/?extent=21.77991,-130.16602&extent=51.91717,-59.85352).
+Interactive map showing earthquake impacts using JavaScript and mapbox. Earthquake data is obtained from [USGS](https://earthquake.usgs.gov/earthquakes/map/?extent=21.77991,-130.16602&extent=51.91717,-59.85352).
 
 ## How to Use
 ### Setup
